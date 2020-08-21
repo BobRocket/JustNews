@@ -1,0 +1,767 @@
+# Copyright (C) 2017 ProteusThemes 
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: 演示导入工具\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2018-06-24 15:59+0800\n"
+"PO-Revision-Date: 2018-09-18 14:36+0800\n"
+"Last-Translator: \n"
+"Language-Team: WPCOM.CN <service@izt.me>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/CustomizerImporter.php:37 inc/CustomizerImporter.php:45
+msgid "Importing customizer settings"
+msgstr "正在导入自定义数据"
+
+#: inc/CustomizerImporter.php:43
+msgid "Customizer settings import finished!"
+msgstr "自定义数据导入成功"
+
+#: inc/CustomizerImporter.php:73
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr "错误：自定义数据未找到，文件路径：%s"
+
+#: inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr "错误：自定义数据文件格式不正确，请确认导入的数据文件格式。"
+
+#: inc/CustomizerImporter.php:99
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr "错误：自定义数据与当前主题不匹配，只能导入同一个主题的自定义数据。"
+
+#: inc/Downloader.php:59
+msgid "Missing URL for downloading a file!"
+msgstr "文件地址不存在！"
+
+#: inc/Downloader.php:82
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr "提取文件发生错误：%1$s%2$s%3$s!%4$s 原因：%5$s - %6$s"
+
+#: inc/Helpers.php:197 inc/Helpers.php:240
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr "将文件写入服务器时发生错误！尝试写入的文件：%s%s"
+
+#: inc/Helpers.php:274
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr "从服务器读取文件时发生错误！尝试读取的文件：%s%s"
+
+#: inc/Helpers.php:297
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+"当前WordPress页面没有 %sdirect%s 写入文件权限。 演示数据导入工具需要此权限才"
+"能将演示的xml文件保存到您网站的上传目录。 您可以使用以下说明更改此设置：%s"
+
+#: inc/Helpers.php:308 inc/OneClickDemoImport.php:137 views/plugin-page.php:34
+msgid "One Click Demo Import"
+msgstr "主题演示数据导入"
+
+#: inc/Helpers.php:309 inc/OneClickDemoImport.php:138 views/plugin-page.php:101
+#: views/plugin-page.php:113
+msgid "Import Demo Data"
+msgstr "导入演示"
+
+#: inc/Helpers.php:321
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr "在检索您的服务器的读/写权限（无法检索WP文件系统凭据）时发生错误！"
+
+#: inc/Helpers.php:329
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr "您的WordPress登录帐号不允许使用文件系统！"
+
+#: inc/Helpers.php:369
+msgid "One Click Demo Import - "
+msgstr "一键导入"
+
+#: inc/Helpers.php:403
+#, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr "%s您的帐号无权限进行数据导入操作。%s"
+
+#: inc/Helpers.php:449
+#, php-format
+msgid "Content file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/Helpers.php:453 inc/Helpers.php:470 inc/Helpers.php:487
+#: inc/Helpers.php:498 inc/Helpers.php:518 inc/Helpers.php:526
+msgid "Upload files"
+msgstr "上传文件"
+
+#: inc/Helpers.php:466
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr "小工具文件未上传，错误：%s"
+
+#: inc/Helpers.php:483
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "自定义文件未上传，错误：%s"
+
+#: inc/Helpers.php:496
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr "缺少 Redux 字段名 ，请输入 Redux 字段名 ！"
+
+#: inc/Helpers.php:514
+#, php-format
+msgid "Redux file was not uploaded. Error: %s"
+msgstr "Redux文件未上传，错误：%s"
+
+#: inc/Helpers.php:524
+msgid "The import files were successfully uploaded!"
+msgstr "导入文件上传成功！"
+
+#: inc/Helpers.php:550
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr "初始最大执行时间  = %s"
+
+#: inc/Helpers.php:554
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+"%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+"文件信息：%1$s网站地址 = %2$s%1$s数据文件 = %3$s%1$s小工具文件 = %4$s%1$s自定"
+"义文件 = %5$s%1$sRedux 文件：%1$s%6$s"
+
+#: inc/Helpers.php:557 inc/Helpers.php:558 inc/Helpers.php:559
+#: inc/Helpers.php:560
+msgid "not defined!"
+msgstr "未定义！"
+
+#: inc/Importer.php:172
+msgid "New AJAX call!"
+msgstr "AJAX 请求！"
+
+#: inc/OneClickDemoImport.php:190
+msgid "No preview image defined for this import."
+msgstr "未设置预览图片"
+
+#: inc/OneClickDemoImport.php:191
+msgid "Are you sure?"
+msgstr "确定导入？"
+
+#: inc/OneClickDemoImport.php:192
+msgid "Cancel"
+msgstr "取消"
+
+#: inc/OneClickDemoImport.php:193
+msgid "Yes, import!"
+msgstr "确定"
+
+#: inc/OneClickDemoImport.php:194
+msgid "Selected demo import:"
+msgstr "选择要导入的演示："
+
+#: inc/OneClickDemoImport.php:241
+msgid "Manually uploaded files"
+msgstr "手动上传文件"
+
+#: inc/OneClickDemoImport.php:254 inc/OneClickDemoImport.php:265
+msgid "Downloaded files"
+msgstr "已下载的文件"
+
+#: inc/OneClickDemoImport.php:261
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr "导入文件：%s 已成功下载！"
+
+#: inc/OneClickDemoImport.php:270
+msgid "No import files specified!"
+msgstr "没有指定导入文件！"
+
+#: inc/OneClickDemoImport.php:391
+msgid ""
+"Just used One Click Demo Import plugin and it was awesome! Thanks "
+"@ProteusThemes! #OCDI https://www.proteusthemes.com/"
+msgstr " "
+
+#: inc/OneClickDemoImport.php:394
+#, php-format
+msgid ""
+"%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created "
+"and maintained by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+msgstr ""
+"%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created "
+"and maintained by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+
+#: inc/OneClickDemoImport.php:407
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly. If it "
+"did, you can deactivate the %3$sOne Click Demo Import%4$s plugin, because it "
+"has done its job.%5$s"
+msgstr ""
+"%1$s%3$s导入成功！%4$s%2$s演示数据已经全部导入，请检查页面是否正常导入，部分"
+"分类、页面、文章在导入后ID会发生变化，所以可能调用异常，需要手动调整修"
+"改。%5$s"
+
+#: inc/OneClickDemoImport.php:418
+#, php-format
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore "
+"details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+"%1$s导入已完成，可能发生了一些错误，不过可以忽略。%2$s更多细节可以查看 %3$s"
+"%5$slog file%6$s%4$s%7$s"
+
+#: inc/ReduxImporter.php:23
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr "Redux插件未启用，已跳过Redux数据导入。"
+
+#: inc/ReduxImporter.php:32 inc/ReduxImporter.php:53 inc/ReduxImporter.php:66
+msgid "Importing Redux settings"
+msgstr "正在导入Redux数据"
+
+#: inc/ReduxImporter.php:51
+#, php-format
+msgid "Redux settings import for: %s finished successfully!"
+msgstr "Redux数据：%s 已完成导入！"
+
+#: inc/ReduxImporter.php:57
+#, php-format
+msgid ""
+"The Redux option name: %s, was not found in this WP site, so it was not "
+"imported!"
+msgstr "Redux字段名：%s 未找到，所以数据未被导入！"
+
+#: inc/WPCLICommands.php:34
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr ""
+
+#: inc/WPCLICommands.php:37
+msgid "Here are the predefined demo imports:"
+msgstr ""
+
+#: inc/WPCLICommands.php:71
+msgid ""
+"At least one of the possible options should be set! Check them with --help"
+msgstr ""
+
+#: inc/WPCLICommands.php:122
+msgid ""
+"The \"predefined\" parameter should be a number (an index of the OCDI "
+"predefined demo import)!"
+msgstr ""
+
+#: inc/WPCLICommands.php:128
+msgid ""
+"The supplied predefined index does not exist! Please take a look at the "
+"available predefined demo imports:"
+msgstr ""
+
+#: inc/WPCLICommands.php:135
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr ""
+
+#: inc/WPCLICommands.php:140
+#, php-format
+msgid "Selected predefined demo import: %s"
+msgstr ""
+
+#: inc/WPCLICommands.php:143
+msgid "Preparing the demo import files..."
+msgstr ""
+
+#: inc/WPCLICommands.php:148
+msgid "Demo import files could not be retrieved!"
+msgstr ""
+
+#: inc/WPCLICommands.php:151
+msgid "Demo import files retrieved successfully!"
+msgstr ""
+
+#: inc/WPCLICommands.php:153
+msgid "Importing..."
+msgstr ""
+
+#: inc/WPCLICommands.php:173
+msgid "Predefined import finished!"
+msgstr ""
+
+#: inc/WPCLICommands.php:185
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/WPCLICommands.php:194
+msgid "Importing content (this might take a while)..."
+msgstr ""
+
+#: inc/WPCLICommands.php:196
+msgid "Importing content"
+msgstr ""
+
+#: inc/WPCLICommands.php:201
+msgid "Content import finished!"
+msgstr ""
+
+#: inc/WPCLICommands.php:204
+msgid "There were some issues while importing the content!"
+msgstr ""
+
+#: inc/WPCLICommands.php:223
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/WPCLICommands.php:227
+msgid "Importing widgets..."
+msgstr ""
+
+#: inc/WPCLICommands.php:232
+msgid "Widgets imported successfully!"
+msgstr ""
+
+#: inc/WPCLICommands.php:235
+msgid "There were some issues while importing widgets!"
+msgstr ""
+
+#: inc/WPCLICommands.php:254
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: inc/WPCLICommands.php:258
+msgid "Importing customizer settings..."
+msgstr ""
+
+#: inc/WPCLICommands.php:263
+msgid "Customizer settings imported successfully!"
+msgstr ""
+
+#: inc/WPCLICommands.php:266
+msgid "There were some issues while importing customizer settings!"
+msgstr ""
+
+#: inc/WPCLICommands.php:286
+#, php-format
+msgid "Executing action: %s ..."
+msgstr ""
+
+#: inc/WidgetImporter.php:40 inc/WidgetImporter.php:52
+msgid "Importing widgets"
+msgstr "正在导入小工具数据"
+
+#: inc/WidgetImporter.php:88
+msgid "Error: Widget import file could not be found."
+msgstr "错误：小工具导入文件未找到。"
+
+#: inc/WidgetImporter.php:118
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr "错误：小工具导入文件无法读取，请尝试使用其他文件。"
+
+#: inc/WidgetImporter.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "主题不支持边栏（已将小工具移入未使用的小工具区）"
+
+#: inc/WidgetImporter.php:178
+msgid "Site does not support widget"
+msgstr "网站不支持小工具"
+
+#: inc/WidgetImporter.php:211
+msgid "Widget already exists"
+msgstr "小工具已经存在"
+
+#: inc/WidgetImporter.php:269
+msgid "Imported"
+msgstr "已导入"
+
+#: inc/WidgetImporter.php:273
+msgid "Imported to Inactive"
+msgstr "已导入到未使用的小工具"
+
+#: inc/WidgetImporter.php:279
+msgid "No Title"
+msgstr "无标题"
+
+#: inc/WidgetImporter.php:326
+msgid "No results for widget import!"
+msgstr "小工具导入无结果！"
+
+#: one-click-demo-import.php:52
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:131
+msgid "Could not open the file for parsing"
+msgstr "无法打开文件进行解析"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:167
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:283
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:356
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+"WXR文件使用的是更高版本(%s) 的工具导出(当前版本 %s) ，可能不支持，请谨慎导"
+"入。"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:506
+msgid "The file does not exist, please try again."
+msgstr "文件不存在，请重试。"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:566
+msgid "Invalid author mapping"
+msgstr "作者映射无效"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:667
+msgid "Cannot import auto-draft posts"
+msgstr "无法导入自动草稿文章"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:755
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr "导入\"%s\"失败：不支持的文章类型 %s"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:765
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr "%s \"%s\" 已存在。"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:843
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr "跳过附件\"%s\"，未开启下载附件。"
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:857
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:889
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1772
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:894
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:934
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1075
+msgid "Invalid file type"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1558
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1579
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1583
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1733
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1777
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1835
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1844
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1897
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1919
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1925
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1950
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1963
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1968
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1982
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1987
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2013
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2024
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2069
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2074
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2096
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2100
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2114
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2118
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2135
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2164
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2174
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2185
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2193
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2207
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2226
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2236
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2271
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2280
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: views/plugin-page.php:39
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr "%s提示： 您的服务器使用 %sPHP 安全模式%s，可能会遇到服务器超时错误。%s"
+
+#: views/plugin-page.php:52
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+"导入可能会修改或者删除部分内容，如果非测试环境建议先备份网站数据。导入前请确"
+"保主题依赖的插件都已经安装并启用，"
+
+#: views/plugin-page.php:64
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr "此主题中没有可用的预置导入文件， 请手动上传导入文件！"
+
+#: views/plugin-page.php:71
+msgid "Manual demo files upload"
+msgstr "手动上传演示文件"
+
+#: views/plugin-page.php:74
+msgid "Choose a XML file for content import:"
+msgstr "选择内容的XML文件："
+
+#: views/plugin-page.php:79
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr "选择小工具的WIE或者JSON文件："
+
+#: views/plugin-page.php:84
+msgid "Choose a DAT file for customizer import:"
+msgstr "选择自定义数据的DAT文件："
+
+#: views/plugin-page.php:90
+msgid "Choose a JSON file for Redux import:"
+msgstr "选择Redux数据的JSON文件："
+
+#: views/plugin-page.php:93
+msgid "Enter the Redux option name:"
+msgstr "输入Redux数据字段名："
+
+#: views/plugin-page.php:128
+msgid "All"
+msgstr "全部"
+
+#: views/plugin-page.php:135
+msgid "Search demos..."
+msgstr "搜索演示数据..."
+
+#: views/plugin-page.php:156
+msgid "No preview image."
+msgstr "无预览图"
+
+#: views/plugin-page.php:161
+msgid "Import"
+msgstr "导入"
+
+#: views/plugin-page.php:163
+msgid "Preview"
+msgstr "预览"
+
+#: views/plugin-page.php:176
+msgid "Importing, please wait!"
+msgstr "正在导入，这个过程可能需要几分钟，请耐心等待..."
+
+#~ msgid ""
+#~ "\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+#~ msgstr "%s%s%s 的 \"import_file_url\" 或者 \"local_import_file\" 未定义！"
+
+#~ msgid ""
+#~ "Please upload XML file for content import. If you want to import widgets "
+#~ "or customizer settings only, please use Widget Importer & Exporter or the "
+#~ "Customizer Export/Import plugin."
+#~ msgstr ""
+#~ "请上传导入的XML文件， 如果您只想导入小工具或自定义设置，请使用 Widget "
+#~ "Importer & Exporter 或者 Customizer Export/Import 插件。"
+
+#~ msgid "(*optional)"
+#~ msgstr "(*可选)"
+
+#~ msgid ""
+#~ "Importing demo data (post, pages, images, theme settings, ...) is the "
+#~ "easiest way to setup your theme."
+#~ msgstr " "
+
+#~ msgid ""
+#~ "It will allow you to quickly edit everything instead of creating content "
+#~ "from scratch."
+#~ msgstr " "
+
+#~ msgid "When you import the data, the following things might happen:"
+#~ msgstr "导入演示数据可能会发送一下情况："
+
+#~ msgid ""
+#~ "No existing posts, pages, categories, images, custom post types or any "
+#~ "other data will be deleted or modified."
+#~ msgstr "可能会删除、修改现有的问、页面、分类、图片以及其他自定义数据；"
+
+#~ msgid ""
+#~ "Posts, pages, images, widgets, menus and other theme settings will get "
+#~ "imported."
+#~ msgstr "文章、页面、图片、小工具、菜单以及设置信息会被导入到网站；"
+
+#~ msgid ""
+#~ "Please click on the Import button only once and wait, it can take a "
+#~ "couple of minutes."
+#~ msgstr ""
+#~ "请只点击一次导入按钮，然后耐心等待，这个过程可能需要几分钟，多次点击可能会"
+#~ "造成重复导入。"

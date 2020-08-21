@@ -1,0 +1,1298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JustNews\n"
+"POT-Creation-Date: 2019-03-01 00:22+0800\n"
+"PO-Revision-Date: 2019-03-01 00:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: WPCOM <service@izt.me>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_n:1,2;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;_n_noop:1,2;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: src\n"
+"X-Poedit-SearchPathExcluded-1: themer/importer\n"
+"X-Poedit-SearchPathExcluded-2: *.js\n"
+
+#: 404.php:6
+msgid "404 Page not found!"
+msgstr "404錯誤!抱歉，無法找到此頁面！請訪問本站其他精彩內容!"
+
+#: 404.php:9
+msgid ""
+"We're sorry, but the page you're looking for may have been moved or deleted."
+msgstr "抱歉，您訪問的頁面暫時不可用，請訪問本站其他精彩內容!"
+
+#: 404.php:9
+msgid "Go home"
+msgstr "回首頁"
+
+#: archive.php:8
+#, php-format
+msgid "%s"
+msgstr "<span>%s</span> 相關文章"
+
+#: archive.php:10
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "按日期歸檔：%s"
+
+#: archive.php:11
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "按月份歸檔：%s"
+
+#: archive.php:11
+msgid "F Y"
+msgstr "Y年m月"
+
+#: archive.php:12
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "按年份歸檔：%s"
+
+#: archive.php:12
+msgid "Y"
+msgstr "Y年"
+
+#: comments.php:27 woocommerce/single-product-reviews.php:74
+msgid "Name: "
+msgstr "暱稱："
+
+#: comments.php:28 woocommerce/single-product-reviews.php:76
+msgid "Email: "
+msgstr "Email信箱："
+
+#: comments.php:29
+msgid "Website: "
+msgstr ""
+
+#: comments.php:30
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:55
+#, php-format
+msgid "Comments(%s)"
+msgstr "留言列表（%s条）"
+
+#: comments.php:72
+msgid "&laquo; Previous"
+msgstr "&laquo; 上一頁"
+
+#: comments.php:72
+msgid "Next &raquo;"
+msgstr "下一頁 &raquo;"
+
+#: footer.php:73
+msgid "Contact Us"
+msgstr "聯絡我們"
+
+#: functions.php:168
+msgid "Favorites"
+msgstr "我的最愛"
+
+#: functions.php:176
+msgid "Add post"
+msgstr "投稿"
+
+#: functions.php:205 functions.php:490 index.php:113
+msgid "Load more posts"
+msgstr "點擊查看更多"
+
+#: functions.php:208 functions.php:216
+msgid "You have no favorite posts."
+msgstr "您還沒有喜歡的文章"
+
+#: functions.php:210 functions.php:218
+msgid "This user has no favorite posts."
+msgstr "此帳號還沒有喜歡的文章"
+
+#: functions.php:576 page-special.php:36
+msgctxt "topic"
+msgid "Read More"
+msgstr "進入專題"
+
+#: header.php:45 header.php:60 searchform.php:2
+msgid "Type your search here ..."
+msgstr "輸入關鍵字搜尋..."
+
+#: header.php:52
+msgid "Sign in"
+msgstr "登入"
+
+#: header.php:53
+msgid "Sign up"
+msgstr "註冊"
+
+#: header.php:56
+msgid "Submit Post"
+msgstr "投稿"
+
+#: index.php:63
+msgid "All Topics"
+msgstr "全部專題"
+
+#: index.php:91
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: page-kuaixun.php:79 page-special.php:61
+msgid "Load more topics"
+msgstr "請點擊！看更多！"
+
+#: search.php:9
+msgid "None"
+msgstr "無"
+
+#: search.php:10
+#, php-format
+msgid "Search for: %s"
+msgstr "搜尋：%s"
+
+#: search.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "抱歉！您搜尋的內容未找到，請使用其他關鍵字搜尋。"
+
+#: search.php:23
+msgid "Please type your keyword(s) to search."
+msgstr "請輸入關鍵字再進行搜尋。"
+
+#: single-kuaixun.php:8
+msgid "Home"
+msgstr "首頁"
+
+#: single-kuaixun.php:51
+msgctxt "kx"
+msgid "Previous: %link"
+msgstr ""
+
+#: single-kuaixun.php:52
+msgctxt "kx"
+msgid "Next: %link"
+msgstr ""
+
+#: single.php:59
+msgid "Like"
+msgstr "讚！"
+
+#: single.php:151
+msgctxt "single"
+msgid "&laquo; Previous"
+msgstr "&laquo; 上一篇"
+
+#: single.php:162
+msgctxt "single"
+msgid "Next  &raquo;"
+msgstr "下一篇  &raquo;"
+
+#: single.php:169
+msgid "Related posts"
+msgstr "相關文章"
+
+#: taxonomy-special.php:32
+msgid "No posts."
+msgstr "暫無內容"
+
+#: woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:84
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:92
+msgid "No products in the cart."
+msgstr "您的購物車目前是空的"
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr "訂單明細"
+
+#: woocommerce/checkout/form-billing.php:61
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:50
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr "點擊輸入優惠碼"
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:31
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/global/form-login.php:35
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:39
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:48
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:51
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:55
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:31
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:31
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:25
+msgid "No products were found matching your selection."
+msgstr "沒有產品符合您的選擇"
+
+#: woocommerce/loop/result-count.php:29
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] "共1件商品"
+msgstr[1] "共%d件商品"
+
+#: woocommerce/loop/result-count.php:34
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "共1件商品"
+msgstr[1] "共%3$d件商品，本頁顯示第%1$d-%2$d件"
+
+#: woocommerce/myaccount/dashboard.php:30
+#: woocommerce/myaccount/dashboard.php:48
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Sign out</a>)"
+msgstr "您好，%1$s！（不是 %1$s？ <a href=\"%2$s\">退出登入</a>）"
+
+#: woocommerce/myaccount/dashboard.php:38
+#: woocommerce/myaccount/dashboard.php:56
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping addresses</a> and <a href="
+"\"%3$s\">edit your password and account details</a>."
+msgstr ""
+"在這個頁面，您可以察看 <a href=\"%1$s\">最近的訂單</a>，或管理您的 <a href="
+"\"%2$s\">送貨地址</a> ，如需修改帳號資料，可以點擊<a href=\"%3$s\">修改您的密"
+"碼和帳號資料</a>。"
+
+#: woocommerce/myaccount/downloads.php:41 woocommerce/myaccount/orders.php:101
+msgid "Go shop"
+msgstr ""
+
+#: woocommerce/myaccount/downloads.php:43
+msgid "No downloads available yet."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:21
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/order/order-details-customer.php:24
+msgid "Billing address"
+msgstr "帳單地址"
+
+#: woocommerce/myaccount/form-edit-address.php:21
+msgid "Shipping address"
+msgstr "發貨地址"
+
+#: woocommerce/myaccount/form-edit-address.php:58
+msgid "Save address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:32
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:42
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:62
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:63
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:89
+msgctxt "orders"
+msgid "Previous"
+msgstr "上一頁"
+
+#: woocommerce/myaccount/orders.php:93
+msgctxt "orders"
+msgid "Next"
+msgstr "下一页"
+
+#: woocommerce/myaccount/orders.php:103
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:26
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:43
+msgid "Product"
+msgstr ""
+
+#: woocommerce/order/order-details.php:44
+msgid "Total"
+msgstr ""
+
+#: woocommerce/order/order-details.php:82
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search products&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:49
+msgid "There are no reviews yet."
+msgstr "暫無留言內容。"
+
+#: woocommerce/single-product-reviews.php:68
+msgid "Add a review"
+msgstr "增加留言"
+
+#: woocommerce/single-product-reviews.php:68
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "成為第一個留言&ldquo;%s&rdquo;的人"
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "回覆 %s"
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Submit"
+msgstr "送出"
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:109
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "購買過此商品並已登入的客戶才可以評價。"
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+#, fuzzy
+#| msgid "Category:"
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "分類："
+msgstr[1] "分類："
+
+#: woocommerce/single-product/meta.php:37
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:37
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s個評價"
+msgstr[1] "%s個評價"
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr "相關商品"
+
+#~ msgid "404 ERROR"
+#~ msgstr "404錯誤"
+
+#~ msgid "Paged %s"
+#~ msgstr "第%s頁"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "留言正在審核中..."
+
+#~ msgid "The password is incorrect"
+#~ msgstr "密碼錯誤"
+
+#~ msgid "The username or password is incorrect"
+#~ msgstr "帳號或密碼錯誤"
+
+#~ msgid "The username does not exist"
+#~ msgstr "帳號不存在"
+
+#~ msgid "Error occurs when resend email."
+#~ msgstr "重新發送Email時發生錯誤..."
+
+#~ msgid "You have already activated your account."
+#~ msgstr "您已經啟動了您的帳戶。"
+
+#~ msgid "Generate reset key error."
+#~ msgstr "生成重置鍵錯誤。"
+
+#~ msgid "Someone has requested a password reset for the following account:"
+#~ msgstr "有人要求為以下帳戶重置密碼："
+
+#~ msgid "Site Name: %s"
+#~ msgstr "網站名稱: %s"
+
+#~ msgid "Username: %s"
+#~ msgstr "帳號: %s"
+
+#~ msgid ""
+#~ "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr "如果這是一個錯誤，請忽略此Email，不會發生任何事情。"
+
+#~ msgid "To reset your password, visit the following address:"
+#~ msgstr "要重置密碼，請開啟以下網址："
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] 重設密碼"
+
+#~ msgid "The email could not be sent."
+#~ msgstr "該Email無法發送!如有疑問請聯絡客服人員。"
+
+#~ msgid "Logout"
+#~ msgstr "[ 登出 ]"
+
+#~ msgid " is required"
+#~ msgstr "不能為空"
+
+#~ msgid "This is not a valid email"
+#~ msgstr "請輸入正確的Email"
+
+#~ msgid "Please enter your "
+#~ msgstr "請輸入"
+
+#~ msgid "Your passwords do not match"
+#~ msgstr "兩次密碼輸入不一致"
+
+#~ msgid "Please enter a valid phone number"
+#~ msgstr "請輸入正確的電話號碼"
+
+#~ msgid "Please slide to verify"
+#~ msgstr "請按住滑塊，往右移動驗證"
+
+#~ msgid "Slide verify failed, please try again"
+#~ msgstr "滑塊驗證失敗請重試"
+
+#~ msgid "The nonce check failed"
+#~ msgstr "驗證失敗"
+
+#~ msgid "Request Error!"
+#~ msgstr "請求！失敗！"
+
+#~ msgid "Hi, %s!"
+#~ msgstr "您好，%s！"
+
+#~ msgid ""
+#~ "Welcome to %s. To activate your account and verify your email address, "
+#~ "please click the following link:"
+#~ msgstr "歡迎加入%s！要啟用您的帳戶並驗證您的Email，請點擊以下連結："
+
+#~ msgid "[%s] Please verify your email address"
+#~ msgstr "【%s】請驗證您的Email信箱"
+
+#~ msgid "The user does not exist"
+#~ msgstr "帳號不存在"
+
+#~ msgid "%s has just created an account on %s!"
+#~ msgstr "用戶【%s】已在您的網站【%s】成功註冊！"
+
+#~ msgid "E-Mail: %s"
+#~ msgstr "E-mail信箱：%s"
+
+#~ msgid "If you want to approve the new user, please go to wp-admin page."
+#~ msgstr "如果您想批准新用戶，請轉至後台進行操作。"
+
+#~ msgid "[%s] New user account"
+#~ msgstr "【%s】新用戶註冊"
+
+#~ msgid ""
+#~ "Congratulations, your account has been activated successfully, you can "
+#~ "now login: <a href=\"%s\">%s</a>"
+#~ msgstr "恭喜，您的帳戶已成功啟用，您現在可以登入：<a href=\"%s\">%s</a>"
+
+#~ msgid "[%s] Welcome to join us"
+#~ msgstr "【%s】歡迎加入我們！"
+
+#~ msgid "Profile"
+#~ msgstr "個人資料"
+
+#~ msgid "Account"
+#~ msgstr "帳號"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "安裝所需的外掛"
+
+#~ msgid "Install Plugins"
+#~ msgstr "安裝外掛"
+
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "正在安裝：%s"
+
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "更新外掛: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "外掛API出錯了。"
+
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "這個主題需要以下外掛：%1$s"
+#~ msgstr[1] "主题依赖插件：%1$s"
+
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "主題推薦以下外掛：%1$s"
+#~ msgstr[1] "主题推荐插件：%1$s"
+
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] "以下外掛需要更新為最新版本，以確保與此主題的最大兼容性：%1$s"
+#~ msgstr[1] "以下插件需要更新至新版才能保证与主题的兼容性：%1$s"
+
+#~ msgid "There is an update available for: %1$s."
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "有可用的更新：%1$s"
+#~ msgstr[1] "插件有更新：%1$s"
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "以下所需的外掛未啟用：%1$s"
+#~ msgstr[1] "依赖插件未启用：%1$s"
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "推薦的外掛未啟用：%1$s"
+#~ msgstr[1] "推荐插件未启用：%1$s"
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "開始安裝外掛"
+#~ msgstr[1] "现在安装"
+
+#~ msgid "Begin updating plugin"
+#~ msgid_plural "Begin updating plugins"
+#~ msgstr[0] "開始更新外掛"
+#~ msgstr[1] "现在更新"
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "啟用外掛"
+#~ msgstr[1] "现在启用"
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "返回所需的外掛安裝程序"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "返回控制台"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "外掛已成功啟用"
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "以下外掛已成功啟用："
+#~ msgstr[1] "已成功安装插件："
+
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "外掛 %1$s已經是啟用狀態"
+
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr "外掛啟用失敗！主題需要 %s 以上版本，請先生及外掛。"
+
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "所有外掛已成功安裝並啟用。%1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "關閉提示"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr "有一個或多個必需或推薦的外掛來安裝，更新或啟用。"
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr "請聯絡本網站的管理員尋求幫助。"
+
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr "外掛需要更新才能兼容當前主題"
+
+#~ msgid "Update Required"
+#~ msgstr "需要更新"
+
+#~ msgid "Set the parent_slug config variable instead."
+#~ msgstr "改為設置parent_slug配置變量。"
+
+#~ msgid "Plugins updated successfully. %1$s"
+#~ msgstr "外掛已成功更新%1$s"
+
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr "遠程外掛不包含具有所需段落的文件夾，無法運作。"
+
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr "請聯繫外掛提供商，並要求他們根據WordPress指南打包外掛。"
+
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr "遠程外掛由多個文件組成，但文件沒有打包在一個文件夾中。"
+
+#~ msgctxt "plugin A *and* plugin B"
+#~ msgid "and"
+#~ msgstr "&"
+
+#~ msgid "Required"
+#~ msgstr "需要"
+
+#~ msgid "Recommended"
+#~ msgstr "推薦"
+
+#~ msgid "WordPress Repository"
+#~ msgstr "WordPress資料庫"
+
+#~ msgid "External Source"
+#~ msgstr "外部源"
+
+#~ msgid "Pre-Packaged"
+#~ msgstr "預包裝"
+
+#~ msgid "Not Installed"
+#~ msgstr "未安裝"
+
+#~ msgid "Installed But Not Activated"
+#~ msgstr "已安裝但未啟用"
+
+#~ msgid "Active"
+#~ msgstr "啟用"
+
+#~ msgid "Required Update not Available"
+#~ msgstr "需要更新才能啟用"
+
+#~ msgid "Requires Update"
+#~ msgstr "需要更新"
+
+#~ msgid "Update recommended"
+#~ msgstr "建議更新"
+
+#~ msgctxt "plugins"
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgid_plural "All <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "全部 <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "全部 <span class=\"count\">(%s)</span>"
+
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "安装 <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "未安装 <span class=\"count\">(%s)</span>"
+
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "可用更新<span class=\"count\">(%s)</span>"
+#~ msgstr[1] "可更新 <span class=\"count\">(%s)</span>"
+
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "可启用 <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "未启用 <span class=\"count\">(%s)</span>"
+
+#~ msgctxt "as in: \"version nr unknown\""
+#~ msgid "unknown"
+#~ msgstr "未知"
+
+#~ msgid "Installed version:"
+#~ msgstr "安裝版本："
+
+#~ msgid "Minimum required version:"
+#~ msgstr "最低要求版本："
+
+#~ msgid "Available version:"
+#~ msgstr "可更新版本："
+
+#~ msgid "No plugins to install, update or activate."
+#~ msgstr "沒有插件可以安裝，更新或啟用。"
+
+#~ msgid "Plugin"
+#~ msgstr "外掛"
+
+#~ msgid "Source"
+#~ msgstr "資源"
+
+#~ msgid "Type"
+#~ msgstr "類型"
+
+#~ msgid "Version"
+#~ msgstr "版本"
+
+#~ msgid "Status"
+#~ msgstr "狀態"
+
+#~ msgid "Install %2$s"
+#~ msgstr "安裝 %2$s"
+
+#~ msgid "Update %2$s"
+#~ msgstr "更新 %2$s"
+
+#~ msgid "Activate %2$s"
+#~ msgstr "啟用 %2$s"
+
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "外掛更新訊息："
+
+#~ msgid "Install"
+#~ msgstr "安裝"
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid "Activate"
+#~ msgstr "啟用"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr "沒有選擇外掛安裝。 不採取行動。"
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr "沒有選擇外掛安裝。 不採取行動。"
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "目前沒有外掛可供安裝。"
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "目前沒有外掛可供更新。"
+
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr "沒有選擇外掛被啟用。 不採取行動。"
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "目前沒有外掛可用於激活。"
+
+#~ msgid "Plugin activation failed."
+#~ msgstr "外掛啟用失敗"
+
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "更新外掛 %1$s (%2$d/%3$d)"
+
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "安裝外掛 %1$s 出錯：<strong>%2$s</strong>"
+
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "安裝 %1$s 失敗"
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr "安裝和啟用過程即將開始。 這個過程可能需要一些時間，所以請耐心等待。"
+
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "%1$s 安裝啟用成功"
+
+#~ msgid "Show Details"
+#~ msgstr "顯示詳情"
+
+#~ msgid "Hide Details"
+#~ msgstr "隱藏詳情"
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "所有安裝和啟用都已完成。"
+
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "安裝和啟用插件 %1$s (%2$d/%3$d)"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr "安裝過程即將開始。 這個過程可能需要一些時間，所以請耐心等待。"
+
+#~ msgid "%1$s installed successfully."
+#~ msgstr "%1$s 安裝成功"
+
+#~ msgid "All installations have been completed."
+#~ msgstr "所有安裝已完成。"
+
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "安裝外掛 %1$s (%2$d/%3$d)"
+
+#~ msgid "Page %s"
+#~ msgstr "第%s頁"
+
+#~ msgid "Groups"
+#~ msgstr "群組"
+
+#~ msgid "User Group"
+#~ msgstr "用戶群組"
+
+#~ msgid "Search Groups"
+#~ msgstr "搜尋群組"
+
+#~ msgid "All Groups"
+#~ msgstr "所有群組"
+
+#~ msgid "Edit Group"
+#~ msgstr "編輯群組"
+
+#~ msgid "Update Group"
+#~ msgstr "更新群組"
+
+#~ msgid "Add Group"
+#~ msgstr "增加新群組"
+
+#~ msgid "No Group"
+#~ msgstr "沒有群組"
+
+#~ msgid "Users"
+#~ msgstr "使用者"
+
+#~ msgid "Select Group"
+#~ msgstr "選擇群組"
+
+#~ msgid "Group"
+#~ msgstr "群組"
+
+#~ msgid "Change"
+#~ msgstr "更改"
+
+#~ msgid "User Groups"
+#~ msgstr "用戶分組"
+
+#~ msgid "Filter"
+#~ msgstr "過濾"
+
+#~ msgid "Reviews (%d)"
+#~ msgstr "用戶留言(%d)"
+
+#~ msgid "Name"
+#~ msgstr "姓名"
+
+#~ msgid "Address"
+#~ msgstr "詳細地址"
+
+#~ msgid "Province"
+#~ msgstr "省分"
+
+#~ msgid "City"
+#~ msgstr "城市"
+
+#~ msgid "Orders"
+#~ msgstr "我的訂單"
+
+#~ msgid "Downloads"
+#~ msgstr "我的下載"
+
+#~ msgid "Addresses"
+#~ msgstr "配送地址"
+
+#~ msgid "Apply"
+#~ msgstr "应用"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "No user found."
+#~ msgstr "沒有找到用戶"
+
+#~ msgid "Save Changes"
+#~ msgstr "保存設定"
+
+#~ msgid "You have not created any posts."
+#~ msgstr "你還沒有發佈任何文章"
+
+#~ msgid "This user has not created any posts."
+#~ msgstr "該用戶還沒發表文章"
+
+#~ msgid "Load more comments"
+#~ msgstr "點擊察看更多留言"
+
+#~ msgid "You have not made any comments."
+#~ msgstr "您還沒有發表任何留言。"
+
+#~ msgid "This user has not made any comments."
+#~ msgstr "該用戶還沒有發佈任何留言。"
+
+#~ msgid "Sign In"
+#~ msgstr "登入"
+
+#~ msgid "Processing..."
+#~ msgstr "處理中..."
+
+#~ msgid "Your activation link has expired."
+#~ msgstr "啟用連結已經過期"
+
+#~ msgid "Your activation link is invalid."
+#~ msgstr "啟用連結無效"
+
+#~ msgid "Resend activation email"
+#~ msgstr "重新發送啟用Email"
+
+#~ msgid "Your account has been activated successfully."
+#~ msgstr "您的帳號已經成功啟用。"
+
+#~ msgid "Click here to login"
+#~ msgstr "點擊此處登入"
+
+#~ msgid "Loading..."
+#~ msgstr "載入中…"
+
+#~ msgid ""
+#~ "Please activate your account. <a href=\"%s\" target=\"_blank\">Resend "
+#~ "activation email</a>"
+#~ msgstr "帳號未驗證 <a href=\"%s\" target=\"_blank\">重新發送啟用Email</a>"
+
+#~ msgid "Account awaiting approval."
+#~ msgstr "帳號正在等候核准"
+
+#~ msgid "Unapproved"
+#~ msgstr "未驗證啟用/審核中"
+
+#~ msgid "Approve"
+#~ msgstr "驗證啟用/核准完成"
+
+#~ msgid "Disapprove"
+#~ msgstr "未驗證完成/審核中"
+
+#~ msgid "Registered"
+#~ msgstr "註冊"
+
+#~ msgid "Updated successfully."
+#~ msgstr "更新成功"
+
+#~ msgid "1 second ago"
+#~ msgstr "1秒前"
+
+#~ msgid "%s day ago"
+#~ msgid_plural "%s days ago"
+#~ msgstr[0] "%s天前"
+#~ msgstr[1] "%s天前"
+
+#~ msgid "%s hour ago"
+#~ msgid_plural "%s hours ago"
+#~ msgstr[0] "%s小時前"
+#~ msgstr[1] "%s小時前"
+
+#~ msgid "%s minute ago"
+#~ msgid_plural "%s minutes ago"
+#~ msgstr[0] "%s分鐘前"
+#~ msgstr[1] "%s分鐘前"
+
+#~ msgid "%s second ago"
+#~ msgid_plural "%s seconds ago"
+#~ msgstr[0] "%s秒前"
+#~ msgstr[1] "%s秒前"
+
+#~ msgid "On <a target=\"_blank\" href=\"%1$s\">%2$s</a>"
+#~ msgstr "留言於 <a target=\"_blank\" href=\"%1$s\">%2$s</a>"
+
+#~ msgid "No account?"
+#~ msgstr "還沒有帳號？"
+
+#~ msgid "Create one!"
+#~ msgstr "立刻註冊"
+
+#~ msgid "Sign in with"
+#~ msgstr "第三方帳號登入"
+
+#~ msgid "Sign Up"
+#~ msgstr "註冊"
+
+#~ msgid "Already have an account?"
+#~ msgstr "已經有帳號？"
+
+#~ msgctxt "sign"
+#~ msgid "Sign in"
+#~ msgstr "立刻登入"
+
+#~ msgid "Sign up with"
+#~ msgstr "也可以使用以下帳號<br>簡單註冊快人一步"
+
+#~ msgid "Title:"
+#~ msgstr "標題："
+
+#~ msgid "Posts number:"
+#~ msgstr "顯示數量："
+
+#~ msgid "Your password must be between 6-32 characters"
+#~ msgstr "密碼必須為6~32個字符"
+
+#~ msgid "QQ"
+#~ msgstr "腾讯QQ"
+
+#~ msgid "Sina Weibo"
+#~ msgstr "新浪微博"
+
+#~ msgid "WeChat"
+#~ msgstr "微信"
+
+#~ msgid "Your cart is currently empty."
+#~ msgstr "您的购物车目前是空的"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "Read more"
+#~ msgstr "查看更多"
+
+#~ msgid "Links: "
+#~ msgstr "友情链接："
+
+#~ msgid "<i class=\"fa fa-tags\"></i> Tags: "
+#~ msgstr "<i class=\"fa fa-tags\"></i> 标签："
+
+#~ msgctxt "news"
+#~ msgid "Previous: %link"
+#~ msgstr "上一篇：%link"
+
+#~ msgctxt "news"
+#~ msgid "Next: %link"
+#~ msgstr "下一篇：%link"
+
+#~ msgctxt "product"
+#~ msgid "Previous: %link"
+#~ msgstr "上一个：%link"
+
+#~ msgctxt "product"
+#~ msgid "Next: %link"
+#~ msgstr "下一个：%link"
+
+#~ msgid "Read More &raquo;"
+#~ msgstr "阅读更多&raquo;"
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to install the %1$s "
+#~ "plugin."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to install the %1$s "
+#~ "plugins."
+#~ msgstr[0] "抱歉，你没有权限安装插件 %1$s"
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to update the %1$s "
+#~ "plugin."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to update the %1$s "
+#~ "plugins."
+#~ msgstr[0] "抱歉，你没有权限更新插件 %1$s"
+
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to activate the %1$s "
+#~ "plugin."
+#~ msgid_plural ""
+#~ "Sorry, but you do not have the correct permissions to activate the %1$s "
+#~ "plugins."
+#~ msgstr[0] "抱歉，你没有权限启用插件 %1$s"
+
+#~ msgid "Return to the dashboard"
+#~ msgstr "返回仪表盘"
+
+#~ msgctxt "%s = version number"
+#~ msgid "TGMPA v%s"
+#~ msgstr "工具版本：v%s"
+
+#~ msgid ""
+#~ "No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+#~ "Dashboard</a>"
+#~ msgstr "没有插件需要安装、更新或者启用。点击<a href=\"%1$s\">返回仪表盘</a>"
+
+#~ msgctxt "%2$s = plugin name in screen reader markup"
+#~ msgid "Install %2$s"
+#~ msgstr "安装%2$s"
+
+#~ msgctxt "%2$s = plugin name in screen reader markup"
+#~ msgid "Update %2$s"
+#~ msgstr "更新 %2$s"
+
+#~ msgctxt "%2$s = plugin name in screen reader markup"
+#~ msgid "Activate %2$s"
+#~ msgstr "启用 %2$s"
+
+#~ msgid "More &raquo;"
+#~ msgstr "更多 &raquo;"
+
+#~ msgid "d/m/Y"
+#~ msgstr "Y-m-d"
+
+#~ msgid "HOTLINE"
+#~ msgstr "客服电话"
+
+#~ msgid "There is no excerpt because this is a protected post."
+#~ msgstr "无法获取摘要信息，因为这是一个受保护的文章。"
+
+#~ msgid "Previous post: %link"
+#~ msgstr "上一篇：%link"
+
+#~ msgid "Next post: %link"
+#~ msgstr "下一篇：%link"
+
+#~ msgctxt "This theme requires the following plugins: %1$s."
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgstr "当前主题依赖的插件：%1$s"
+
+#~ msgctxt "This theme recommends the following plugins: %1$s."
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgstr "当前主题推荐的插件：%1$s"
+
+#~ msgctxt ""
+#~ "Sorry, but you do not have the correct permissions to install the %1$s "
+#~ "plugins."
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to install the %1$s "
+#~ "plugin."
+#~ msgstr "抱歉，你没有权限安装插件 %1$s"
+
+#~ msgctxt ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgstr "以下插件需要升级至最新版本才能保证与主题的兼容性：%1$s"
+
+#~ msgctxt "There are updates available for the following plugins: %1$s."
+#~ msgid "There is an update available for: %1$s."
+#~ msgstr "插件有更新：%1$s"
+
+#~ msgctxt ""
+#~ "Sorry, but you do not have the correct permissions to update the %1$s "
+#~ "plugins."
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to update the %1$s "
+#~ "plugin."
+#~ msgstr "抱歉，你没有权限更新插件 %1$s"
+
+#~ msgctxt "The following required plugins are currently inactive: %1$s."
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgstr "以下依赖插件未启用：%1$s"
+
+#~ msgctxt "The following recommended plugins are currently inactive: %1$s."
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgstr "以下推荐插件未启用：%1$s"
+
+#~ msgctxt ""
+#~ "Sorry, but you do not have the correct permissions to activate the %1$s "
+#~ "plugins."
+#~ msgid ""
+#~ "Sorry, but you do not have the correct permissions to activate the %1$s "
+#~ "plugin."
+#~ msgstr "抱歉，你没有权限启用插件 %1$s"
+
+#~ msgctxt "Begin installing plugins"
+#~ msgid "Begin installing plugin"
+#~ msgstr "开始安装插件"
+
+#~ msgctxt "Begin updating plugins"
+#~ msgid "Begin updating plugin"
+#~ msgstr "开始更新插件"
+
+#~ msgctxt "Begin activating plugins"
+#~ msgid "Begin activating plugin"
+#~ msgstr "开始启用插件"
+
+#~ msgid "No result for '%s'"
+#~ msgstr "抱歉，未找到与“%s”相关的内容。"
